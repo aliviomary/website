@@ -1,0 +1,63 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html {
+font-family: 'verdana';
+font-size: 18px;
+}
+
+#about {
+    width: 100%;
+    height: 100vh;
+    background: url(COVER.jpeg) no-repeat center / cover;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container .information h1 {
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    font-weight: bold;
+    outline-width: 10px;
+    outline-color: rgb(4, 112, 98);
+    outline-style: outset;
+}
+
+
+.container .information h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.container .information p {
+    font-size: 1.3rem;
+    max-width: 95%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.container .information a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(4, 112, 98);
+    border-radius: 50px;
+    font-size: 1.8rem;
+    padding: 0.5em 2em;
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
